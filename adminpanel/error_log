@@ -1,0 +1,130 @@
+[03-Jun-2019 17:18:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/emtechint/public_html/fixapp/includes/DbConnect.php on line 23
+[03-Jun-2019 17:18:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/emtechint/public_html/fixapp/adminpanel/demo.php:41
+Stack trace:
+#0 /home2/emtechint/public_html/fixapp/adminpanel/index.php(15): Demo->getDemoUser()
+#1 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/demo.php on line 41
+[20-Feb-2020 15:43:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Demo::getAllChatRooms() in /home2/emtechint/public_html/fixapp/adminpanel/index.php:217
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 217
+[20-Feb-2020 15:46:56 UTC] PHP Warning:  require_once(/home2/emtechint/public_html/fixapp/adminpanel/firebase.php): failed to open stream: No such file or directory in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 58
+[20-Feb-2020 15:46:56 UTC] PHP Fatal error:  require_once(): Failed opening required '/home2/emtechint/public_html/fixapp/adminpanel/firebase.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 58
+[22-Feb-2020 12:52:34 UTC] PHP Warning:  require_once(/home2/emtechint/public_html/fixapp/adminpanel/firebase.php): failed to open stream: No such file or directory in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 58
+[22-Feb-2020 12:52:34 UTC] PHP Fatal error:  require_once(): Failed opening required '/home2/emtechint/public_html/fixapp/adminpanel/firebase.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 58
+[22-Feb-2020 13:01:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Firebase' not found in /home2/emtechint/public_html/fixapp/adminpanel/index.php:62
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 62
+[22-Feb-2020 13:03:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Push::setMessage() in /home2/emtechint/public_html/fixapp/adminpanel/index.php:84
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 84
+[19-Aug-2020 11:32:01 UTC] PHP Fatal error:  Uncaught Error: Class 'GuzzleHttp\Client' not found in /home2/emtechint/public_html/fixapp/adminpanel/index.php:146
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 146
+[19-Aug-2020 11:41:08 UTC] PHP Fatal error:  Uncaught Error: Class 'GuzzleHttp\Client' not found in /home2/emtechint/public_html/fixapp/adminpanel/index.php:146
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 146
+[19-Aug-2020 11:42:54 UTC] PHP Fatal error:  Uncaught Error: Class 'GuzzleHttp\Client' not found in /home2/emtechint/public_html/fixapp/adminpanel/index.php:146
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 146
+[19-Aug-2020 11:55:36 UTC] PHP Fatal error:  Uncaught Error: Class 'GuzzleHttp\Client' not found in /home2/emtechint/public_html/fixapp/adminpanel/index.php:146
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 146
+[19-Aug-2020 12:15:03 UTC] PHP Warning:  Use of undefined constant collection_request - assumed 'collection_request' (this will throw an Error in a future version of PHP) in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 151
+[20-Aug-2020 06:44:45 UTC] PHP Fatal error:  Uncaught Beyonic_Exception Error 403: HTTP/2 403  when sending GET to https://app.beyonic.com/api/collections/131820.
+Error Details: {"detail":"You do not have permission to perform this action."}
+
+  thrown in /home2/emtechint/public_html/fixapp/libs/beyonic/lib/Beyonic/Beyonic.php on line 133
+[20-Aug-2020 14:57:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getStatusCode() on string in /home2/emtechint/public_html/fixapp/adminpanel/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 180
+[20-Aug-2020 15:03:06 UTC] PHP Notice:  Undefined variable: ch in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 186
+[20-Aug-2020 15:03:06 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 186
+[21-Aug-2020 10:29:10 UTC] PHP Notice:  Undefined variable: url in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 135
+[21-Aug-2020 10:50:23 UTC] PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Client.php on line 351
+[22-Aug-2020 09:04:55 UTC] PHP Notice:  Array to string conversion in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 167
+[22-Aug-2020 09:11:27 UTC] PHP Warning:  Use of undefined constant BEYONIC_API - assumed 'BEYONIC_API' (this will throw an Error in a future version of PHP) in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 157
+[22-Aug-2020 09:17:25 UTC] PHP Warning:  Use of undefined constant BEYONIC_API_URL - assumed 'BEYONIC_API_URL' (this will throw an Error in a future version of PHP) in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 157
+[31-Aug-2020 12:29:35 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sandbox.africastalking.com/version1/messaging` resulted in a `401 Unauthorized` response:
+The supplied authentication is invalid
+ in /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home2/em in /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2020 12:35:42 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sandbox.africastalking.com/version1/messaging` resulted in a `401 Unauthorized` response:
+The supplied authentication is invalid
+ in /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home2/em in /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2020 12:37:33 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sandbox.africastalking.com/version1/messaging` resulted in a `401 Unauthorized` response:
+The supplied authentication is invalid
+ in /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home2/em in /home2/emtechint/public_html/fixapp/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2020 14:01:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/emtechint/public_html/fixapp/adminpanel/index.php:1) in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 308
+[01-Sep-2020 08:13:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 319
+[01-Sep-2020 08:13:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 319
+[01-Sep-2020 08:13:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 319
+[01-Sep-2020 08:15:11 UTC] PHP Notice:  Undefined variable: verify_code in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 312
+[01-Sep-2020 09:16:20 UTC] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home2/emtechint/public_html/fixapp/adminpanel/index.php:295
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 295
+[04-Sep-2020 10:45:20 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 296
+[04-Sep-2020 10:45:20 UTC] PHP Notice:  Trying to get property 'data' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:45:20 UTC] PHP Notice:  Trying to get property 'SMSMessageData' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:45:20 UTC] PHP Notice:  Trying to get property 'Recipients' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:45:20 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:47:37 UTC] PHP Notice:  Trying to get property 'data' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:47:37 UTC] PHP Notice:  Trying to get property 'SMSMessageData' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:47:37 UTC] PHP Notice:  Trying to get property 'Recipients' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:47:37 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:53:07 UTC] PHP Notice:  Array to string conversion in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:54:25 UTC] PHP Notice:  Trying to get property 'data' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:54:55 UTC] PHP Notice:  Trying to get property 'data' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 10:59:11 UTC] PHP Notice:  Trying to get property 'data' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 298
+[04-Sep-2020 11:00:52 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 296
+[04-Sep-2020 11:00:52 UTC] PHP Notice:  Trying to get property 'data' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 298
+[04-Sep-2020 11:01:31 UTC] PHP Notice:  Trying to get property 'data' of non-object in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 298
+[04-Sep-2020 11:05:06 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home2/emtechint/public_html/fixapp/adminpanel/index.php:299
+Stack trace:
+#0 {main}
+  thrown in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 299
+[04-Sep-2020 11:16:04 UTC] PHP Notice:  Undefined variable: _SESSION in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 304
+[04-Sep-2020 11:16:04 UTC] PHP Notice:  Undefined variable: _SESSION in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 305
+[04-Sep-2020 11:16:04 UTC] PHP Notice:  Undefined variable: _SESSION in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 308
+[04-Sep-2020 11:17:28 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 54
+[04-Sep-2020 11:17:40 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 54
+[04-Sep-2020 11:18:01 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 54
+[04-Sep-2020 11:18:01 UTC] PHP Notice:  Undefined variable: _SESSION in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 306
+[04-Sep-2020 11:18:01 UTC] PHP Notice:  Undefined variable: _SESSION in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 307
+[04-Sep-2020 11:18:01 UTC] PHP Notice:  Undefined variable: _SESSION in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 310
+[04-Sep-2020 11:26:03 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 54
+[04-Sep-2020 11:26:10 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 54
+[04-Sep-2020 11:26:10 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 297
+[04-Sep-2020 11:27:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 54
+[04-Sep-2020 11:27:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 54
+[04-Sep-2020 11:28:10 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 54
+[04-Sep-2020 11:28:17 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 54
+[04-Sep-2020 11:28:17 UTC] PHP Notice:  Undefined variable: _SESSION in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 306
+[04-Sep-2020 11:28:17 UTC] PHP Notice:  Undefined variable: _SESSION in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 307
+[04-Sep-2020 11:28:17 UTC] PHP Notice:  Undefined variable: _SESSION in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 310
+[04-Sep-2020 11:33:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/emtechint/public_html/fixapp/adminpanel/index.php on line 106

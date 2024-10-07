@@ -1,0 +1,939 @@
+[26-Jan-2022 01:08:33 Africa/Kampala] PHP Warning:  Uncaught ErrorException: require_once(/home/fixappug/public_html/app/Http/Controllers/../libs/fcm/fcm.php): failed to open stream: No such file or directory in /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php:14
+Stack trace:
+#0 /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php(14): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fixappug/...', 14, Array)
+#1 /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php(14): require_once()
+#2 /home/fixappug/public_html/vendor/composer/ClassLoader.php(480): include('/home/fixappug/...')
+#3 /home/fixappug/public_html/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/fixappug/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): in /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php on line 14
+[26-Jan-2022 01:08:33 Africa/Kampala] PHP Fatal error:  main(): Failed opening required '/home/fixappug/public_html/app/Http/Controllers/../libs/fcm/fcm.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php on line 14
+[26-Jan-2022 01:10:19 Africa/Kampala] PHP Warning:  Uncaught ErrorException: require_once(/home/fixappug/public_html/app/Http/Controllers/../libs/fcm/fcm.php): failed to open stream: No such file or directory in /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php:14
+Stack trace:
+#0 /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php(14): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fixappug/...', 14, Array)
+#1 /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php(14): require_once()
+#2 /home/fixappug/public_html/vendor/composer/ClassLoader.php(480): include('/home/fixappug/...')
+#3 /home/fixappug/public_html/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/fixappug/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): in /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php on line 14
+[26-Jan-2022 01:10:19 Africa/Kampala] PHP Fatal error:  main(): Failed opening required '/home/fixappug/public_html/app/Http/Controllers/../libs/fcm/fcm.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php on line 14
+[26-Jan-2022 01:11:03 Africa/Kampala] PHP Warning:  Uncaught ErrorException: require_once(/home/fixappug/public_html/app/Http/Controllers/../libs/fcm/fcm.php): failed to open stream: No such file or directory in /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php:14
+Stack trace:
+#0 /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php(14): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fixappug/...', 14, Array)
+#1 /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php(14): require_once()
+#2 /home/fixappug/public_html/vendor/composer/ClassLoader.php(480): include('/home/fixappug/...')
+#3 /home/fixappug/public_html/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/fixappug/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): in /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php on line 14
+[26-Jan-2022 01:11:03 Africa/Kampala] PHP Fatal error:  main(): Failed opening required '/home/fixappug/public_html/app/Http/Controllers/../libs/fcm/fcm.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/fixappug/public_html/app/Http/Controllers/AppFunctionsController.php on line 14
+[20-Oct-2022 05:34:41 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 06:04:29 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 06:34:14 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 07:04:38 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 07:24:22 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 07:34:37 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 08:04:35 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 08:34:20 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 09:04:38 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 09:14:10 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 09:14:10 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 09:14:10 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 09:14:11 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 09:34:43 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 10:04:42 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 10:35:31 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 10:50:17 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 10:56:29 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 11:01:16 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 11:04:57 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 11:34:40 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 11:37:06 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 12:04:42 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 12:34:37 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 13:04:46 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 13:34:39 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 14:04:27 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 14:34:34 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 15:04:22 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 15:26:43 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 15:34:43 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 16:04:30 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 16:34:38 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 16:36:22 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 17:04:37 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 17:34:43 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 17:45:08 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 18:04:34 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 18:34:25 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 19:05:00 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 19:35:17 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 20:04:46 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 20:34:18 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 20:36:57 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 20:36:58 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 21:04:43 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 21:34:23 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 22:04:40 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 22:34:23 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 23:05:00 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Oct-2022 23:34:48 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 00:04:27 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 00:34:38 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 01:03:47 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 01:05:04 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 01:34:29 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 02:04:32 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 02:34:34 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 03:04:23 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 03:34:44 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 04:04:31 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 04:13:36 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 04:24:35 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 04:24:36 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 04:26:58 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 04:34:46 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 05:04:43 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 05:13:08 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 05:34:37 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 06:04:42 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 06:34:23 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 07:04:58 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 07:34:23 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 07:43:24 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 07:52:37 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 07:52:37 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 07:52:37 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 07:52:37 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 08:04:44 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 08:34:24 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 09:05:00 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 09:27:42 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 09:35:15 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 10:04:44 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 10:34:47 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 10:54:14 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 11:04:40 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 11:10:01 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 11:34:58 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 12:04:50 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 12:35:14 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 13:04:48 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 13:34:39 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 14:05:01 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 14:34:47 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 15:04:41 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 15:35:18 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 15:50:38 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 15:52:43 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 15:53:01 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 15:53:02 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 15:53:20 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 15:53:39 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 15:53:41 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 16:06:38 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 16:34:47 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 17:04:46 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 17:34:45 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 18:05:05 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 18:34:47 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 19:05:02 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 19:35:07 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 20:05:03 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 20:34:49 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 21:04:51 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 21:34:00 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 21:34:17 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 22:04:39 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 22:34:51 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 23:04:47 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[21-Oct-2022 23:34:44 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[22-Oct-2022 00:04:23 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[22-Oct-2022 00:34:26 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[22-Oct-2022 00:47:10 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[22-Oct-2022 01:04:34 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[22-Oct-2022 01:34:28 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[22-Oct-2022 02:04:37 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[22-Oct-2022 02:26:47 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[22-Oct-2022 02:34:07 Africa/Kampala] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/fixappug/public_html/vendor/laravel/framework/src/Il in /home/fixappug/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[10-Jan-2023 04:51:40 America/New_York] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 32768 bytes) in /home/fixappug/public_html/vendor/composer/autoload_static.php on line 2527
+[10-Jan-2023 05:21:48 America/New_York] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 32768 bytes) in /home/fixappug/public_html/vendor/composer/autoload_static.php on line 2527
+[10-Jan-2023 05:51:18 America/New_York] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 32768 bytes) in /home/fixappug/public_html/vendor/composer/autoload_static.php on line 2527
+[10-Jan-2023 06:21:29 America/New_York] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 32768 bytes) in /home/fixappug/public_html/vendor/composer/autoload_static.php on line 2527
+[10-Jan-2023 06:51:49 America/New_York] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 32768 bytes) in /home/fixappug/public_html/vendor/composer/autoload_static.php on line 2527
+[10-Jan-2023 07:22:16 America/New_York] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 32768 bytes) in /home/fixappug/public_html/vendor/composer/autoload_static.php on line 2527
