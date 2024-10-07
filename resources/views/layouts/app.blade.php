@@ -9,9 +9,6 @@
 
     <title>{{ config('app.name', 'DFCU On Board') }} - App Dcumentation</title>
     <meta name="author" content="Bruno, Bruno">
-    <meta content="Hire skilled people to help you complete your tasks or earn money completing tasks using FixApp" name="description">
-    <meta content="job, gig, work, flexible work, part time work, household chores, errands, trustworhty, carpentar services, Handyman, Tasks, Uganda, On demand, Services" name="keywords">
-	
 	
 	<!-- Favicons -->
 	<link href="assets/img/favicon.png" rel="icon">

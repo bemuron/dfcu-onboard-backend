@@ -22,10 +22,10 @@
 			</div><!-- end div .span-6 -->		
 	
 			<div class="span-12 last">
-				<p class="prepend-top append-0">Thank you for purchasing <strong>Votta - Online voting system.</strong> If you 
-					have any questions that are beyond the scope of this help file, please feel free to email 
-					via my user page contact form <a href="https://codecanyon.net/user/emo6bruno">here</a>. 
-					Thanks so much!</p>
+				<p class="prepend-top append-0">Thank you for using the<strong>DFCU On-Boarding</strong> app. This app
+					demonstrates the workings of 3 APIs for dfcu Bank's HR Management System which support new staff onboarding.
+					The 3 APIs are: <strong>1. Staff Registration</strong> <strong>2. Staff Retrieval</strong> and <strong>3. Staff Update</strong>
+				</p>
 			</div>
 		</div><!-- end div .borderTop -->
 		
@@ -36,11 +36,11 @@
 			<li><a href="#specifications">App Specifications</a></li>
 			<li><a href="#installation">App Installation</a></li>
 			<li><a href="#setup">Inital SetUp</a></li>
-			<li><a href="#OnBoarding">OnBoarding</a></li>
-			<li><a href="#javascript">JavaScript</a></li>
-			<li><a href="#credits">Sources and Credits</a></li>
+			<li><a href="#OnBoarding">Staff Registration (OnBoarding)</a></li>
+			<li><a href="#retrieval">Staff Retrieval</a></li>
+			<li><a href="#update">Staff Update</a></li>
 			
-			<li><a href="#phpcode">PHP Code Explanation</a></li>
+			<li><a href="#apiMonitor">Admin Interface</a></li>
 			<li><a href="#appfeatures">App features</a></li>
 			<li><a href="#support">Support</a></li>
 		</ol>
@@ -63,7 +63,7 @@
 			Follow the link below to download the app
 		</p>
 		
-		<img src="assets/images/zippedfolders.png" alt="zipped folders" />
+		<!-- <img src="assets/images/zippedfolders.png" alt="zipped folders" /> -->
 		
 		<hr>
 		
@@ -77,106 +77,56 @@
 
 		<p>Add the email and the role you want to the user to have when the successfully onboard</p>
 		
-		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+		<!-- <img src="assets/images/htmlstructure.png" alt="HTML Structure" /> -->
 		
 		<hr>
 
-		<h3 id="OnBoarding"><strong>C) OnBoarding</strong> - <a href="#toc">top</a></h3>
+		<h3 id="OnBoarding"><strong>C) Staff Registration (OnBoarding)</strong> - <a href="#toc">top</a></h3>
 
 		<p>After adding the emails of the staff to on board, they can now self on board using the app.</p> 
 		
-		<p>Below is the process flow;</p> 
+		<p>Below is the process flow;</p>
 		<ol>
-			<li>288 x 288 for candidate images</li>
-			<li>1100 x 281 for election cover images</li>
+			<li>User enters their email address</li>
+			<li>App checks of this email is exists in the staff DB</li>
+			<li>If yes, a 10 digit code is generated and sent to that email.</li>
+			<li>User enters the 10 digit code sent to their email address.</li>
+			<li>App verifies the code to make sure it had not yet expired and if it is the one it sent out.</li>
+			<li>If successfull, the user will then be taken to the registration screen where they can enter all necessary details.</li>
+			<li>On submit, the user's details are saved and an employee ID is generated for the user.</li>
+			<li>The user is then taken to the app home screen</li>
 		</ol>
+		<p>The app uses a bottom navigation design for its main navigation</p>
 
 		<hr>
 		
-		<h3 id="javascript"><strong>D) JavaScript</strong> - <a href="#toc">top</a></h3>
+		<h3 id="retrieval"><strong>D) Staff Retrieval</strong> - <a href="#toc">top</a></h3>
 		
-		<p>This system's main javascript is compiled down to one file <i>app.js</i> by Laravel's build system. You can create custom
-			javascript files to modify or support some custom functionality for the application. Several other libraries are used that give the 
-			system its behaviour and look and all these libraries come along with their
-			<i>.js</i> files. The following are the javascript files included in the main layout 
-			(<i>app.blade.php</i> and <i>dashboard.blade.php</i> ) files;
+		<p>To retieve staff details, simply enter theie employee ID and tap the button to retrieve.
+			This initiates a DB search and employee results are returned if found.
 		</p>
-
-		<ul>
-			<li>feather.min.js</li>
-			<li>aos.js</li>
-			<li>glightbox.min.js</li>
-			<li>swiper-bundle.min.js</li>
-			<li>isotope.pkgd.min.js</li>
-			<li>jquery.dataTables.min.js</li>
-			<li>jquery-ui.js</li>
-			<li>select2.min.js</li>
-			<li>perfect-scrollbar.min.js</li>
-			<li>votta.js</li>
-			<li>custom.js</li>
-			<li>dashboard.js</li>
-		</ul>
 		
 		<hr>
 		
-		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
-		
-		<p>Giving credit to whom credit is due.
-		
-		<ul>
-			<li>Free stock photos from <a href="https:://pexels.com">Pexels</a></li>
-			<li><a href="https:://laravel.com">Laravel Framework</a></li>
-			<li><a href="https:://getbootstrap.com">Bootstrap Framework</a></li>
-			<li><a href="https:://jquery.com">jQuery Framework</a></li>
-			<li><a href="https:://datatables.net">DataTables</a></li>
-			<li><a href="https:://www.mysql.com">MySQL</a></li>
-		</ul>
-
-		<hr>
-		
-		<h3 id="phpcode"><strong>F) PHP Code Explanation</strong> - <a href="#toc">top</a></h3>
-		
-		<p>Laravel enforces a MVC(Model View Controller) pattern to application architecture and this pattern has been followed in 
-			building of Votta.
-
-			The controllers found at the location below contains the code that performs the actual actions (CRUD) in response to commands or
-			requests from the front end.
-		</p>
-		<pre>votta\app\Http\Controllers</pre>
-		
-		<ul>
-			<li>Properly commented code so that you can easily find out what a specific function is doing</li>
-			<li>Appropriate controller names</li>
-			<li>Wel structured routes</li>
-		</ul>
-
-		<img src="assets/images/code.png" alt="App code" />
-		
-		<hr>
-		
-		<h3 id="appfeatures"><strong>G) App features</strong> - <a href="#toc">top</a></h3>
+		<h3 id="update"><strong>E) Staff Update</strong> - <a href="#toc">top</a></h3>
 		
 		<p>
-			These some of the features Votta brings to you;
+			Staff updates can only be carried out by users with the Administrator role.
+			The admin can only edit the staff date of birth and the ID images added.
+		</p>
+
+		<hr>
+		
+		<h3 id="apiMonitor"><strong>F) Admin Interface</strong> - <a href="#toc">top</a></h3>
+		
+		<p><strong>Not yet functional</strong></p>
+
+		<p>This is where the admins can view the performance of the APIs monitorin metrics such as the total number 
+			of requests, failed, successful etc.
+			This section is currently not functional.
 		</p>
 		
-		<ul>
-			<li>Voter anonimity</li>
-			<li>Voter - vote unlinkability</li>
-			<li>Bulk user insert</li>
-			<li>User management</li>
-			<li>User grouping in divisions and sub-divisions</li>
-			<li>Bulk divisions/sub-divisions insert</li>
-			<li>Create, edit, update, delete elections</li>
-			<li>Create, edit, update, delete election posts</li>
-			<li>Create, edit, update, delete candidates</li>
-			<li>Set start and end dates for elections</li>
-			<li>View election results</li>
-			<li>Voters cannot vote more than once for the same position</li>
-			<li>Transparency - vote timestamp recorded</li>
-			<li>Reports</li>
-			<li>Well designed UI</li>
-		</ul>
+		<hr>
 
 		<p>
 			Your feedback is important so feel free to get in touch. If you want further customization according to your requirements, 
@@ -193,7 +143,7 @@
 
 			<ul>
 				<li>
-					<a href="mailto:contact@emtechint.com">contact@emtechint.com</a>
+					<a href="mailto:emo6bruno@gmail.com">emo6bruno@gmail.com</a>
 				</li>
 			</ul>
 
@@ -201,12 +151,9 @@
 		
 		<hr>
 		
-		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if 
-			you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a 
-			more general question relating to the php scripts on Codecanyon, you might consider visiting the forums and asking 
-			your question.</p> 
+		<p>Thank you again for using and testing the DFCU On Board app by Bruno</p> 
 		
-		<p class="append-bottom alt large"><strong>EM-TECH Global</strong></p>
+		<p class="append-bottom alt large"><strong>Bruno Emuron</strong></p>
 		<p><a href="#toc">Go To Table of Contents</a></p>
 		
 		<hr class="space">
