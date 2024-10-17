@@ -151,12 +151,14 @@ class AuthController extends Controller
                     $file_name = $file->getClientOriginalName();
                     //move the file to the right folder
                     if($file->move(base_path('public/assets/images/ids/'), $file_name)){
+                        $imageUrlPath = base_path('public/assets/images/ids/');
                         //save the image names
                         // Build SQL query
-                        $sql = 'CALL save_id_img_name(:img_name, :user_id, :added_on)';
+                        $sql = 'CALL save_id_img_name(:img_name, :image_url, :user_id, :added_on)';
                         
                         // Build the parameters array
                         $params = array (':user_id' => $user['user_id'], ':img_name' => $file_name,
+                        ':image_url' => $imageUrlPath,
                         ':added_on' => date('Y-m-d H:i:s'));
                         
                         // Execute the query and return the results
